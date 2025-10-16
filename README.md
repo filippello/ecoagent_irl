@@ -5,9 +5,12 @@
 ## Disclaimer
 Todo el código es nuevo para esta hackatón, **excepto** la parte del repositorio **irl-agents**, idea que veníamos iterando anteriormente y que adaptamos para esta hackaton
 
-- Telegram agent: https://github.com/filippello/ecoAgent
-- Web de crowdfunding y contratos en CELO para GoodDollar: https://github.com/Sixela33/celo#
-- Herramienta IRL (iteración previa, terminada e integrada con GoodDollar, CELO y la plataforma de crowdfunding): https://gitlab.com/irl-agents
+- **Agente de Telegram** · orquestación y UX conversacional: `ecoAgent`  
+- https://github.com/filippello/ecoAgent
+- **Web de Crowdfunding + Contratos** · CELO + GoodDollar  
+- https://github.com/Sixela33/celo#
+- **Herramienta IRL** · planificación, asignación y verificación  (iteración previa, terminada e integrada con GoodDollar, CELO y la plataforma de crowdfunding)
+- https://gitlab.com/irl-agents
 
 ---
 

@@ -44,15 +44,6 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 
 
 
-
-
-
-
-<img width="719" height="499" alt="image" src="https://github.com/user-attachments/assets/055f1c82-6421-4334-86cd-d1662e4f5402" />
-
-
-
-
 ## Arquitectura (resumen)
 - **Bot de Telegram**: FastAPI/Node o Python (según repo), conexión a base de datos y colas.
 - **Crowdfunding dApp**: front web + contratos CELO. Manejo de aportes en G$ y emisión de milestones.

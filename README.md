@@ -14,6 +14,9 @@ Todo el código es nuevo para esta hackatón, **excepto** la parte del repositor
 ## Qué es EcoAgent IRL
 EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo de limpieza, junte fondos en minutos y contrate a alguien cercano para resolverlo. El agente de Telegram guía el proceso, orquesta tareas, verifica con fotos y libera pagos on‑chain.
 
+pero esto solo es el princicio, la idea es expandirlo a mas distintas tareas, la limpiezsa es un ejemplo del potencial, pero podriamos tener donaciones para contruccion de servicios basicos, reparacionesm ayudas especificas..
+
+
 **Use case de esta versión:** limpieza de espacios públicos (veredas, plazas, carteles, contenedores, micro‑basurales pequeños).
 
 ## Repos y Componentes

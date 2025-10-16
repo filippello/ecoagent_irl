@@ -38,7 +38,8 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 5. Los trabajadores se conectan con la miniapp de telegram que abre nuestra app de IRL mediante @irl_agents_bot cuando les llega la tarea la pueden completan, suben evidencias y el sistema verifica.
 6. Se liberan pagos on‑chain en CELO usando GoodDollar.
 
-<img width="708" height="532" alt="image" src="https://github.com/user-attachments/assets/eeafd00a-6407-4612-8baa-4238e75fb7ab" />
+<img width="652" height="279" alt="image" src="https://github.com/user-attachments/assets/50098c1a-a4f3-4cd8-b596-285c7fec549c" />
+
 
 
 

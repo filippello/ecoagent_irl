@@ -5,6 +5,8 @@
 ## Disclaimer
 Todo el código es nuevo para esta hackatón, **excepto** la parte del repositorio **irl-agents**, idea que veníamos iterando anteriormente y que adaptamos para esta hackaton
 
+
+## Repos y Componentes
 - **Agente de Telegram** · orquestación y UX conversacional: `ecoAgent`  
 - https://github.com/filippello/ecoAgent
 - **Web de Crowdfunding + Contratos** · CELO + GoodDollar  
@@ -22,13 +24,6 @@ pero esto solo es el princicio, la idea es expandirlo a mas distintas tareas, la
 
 **Use case de esta versión:** limpieza de espacios públicos (veredas, plazas, carteles, contenedores, micro‑basurales pequeños).
 
-## Repos y Componentes
-- **Agente de Telegram** · orquestación y UX conversacional: `ecoAgent`  
-  Repositorio: https://github.com/filippello/ecoAgent
-- **Web de Crowdfunding + Contratos** · CELO + GoodDollar  
-  Repositorio: https://github.com/Sixela33/celo#
-- **Herramienta IRL** · planificación, asignación y verificación  
-  Repositorio: https://gitlab.com/irl-agents
 
 ## Cómo funciona (flujo)
 1. Un miembro de la comunidad se contacta con nuestro agente mediante telegram @ecoagentetestbot, y puede describir el problema que esta teniendo.
@@ -70,17 +65,7 @@ esto tambien nos permite generar reputacion en los usan nuestra app
 <img width="638" height="384" alt="image" src="https://github.com/user-attachments/assets/f6d9ab72-1b22-48f0-a8f9-5a0bf0ec6ef8" />
 
 
-REPUTACION Y CURRICULUM
+## REPUTACION Y CURRICULUM
 
 mucho del trabajo informal que se realiza en latam no queda registrado, con esta herramienta podemois empezar a registrar tareas, ofrecer capacitacion y mejorar la gente que trabaje para que puedan mejorar, realizando capacitaciones yy realizando tareas necesarias.
-
-
-
-## Despliegue rápido (hackatón)
-> Objetivo: levantar demo funcional con los tres componentes conectados.
----
-
-### Notas para ediciones
-- Mantener este README como índice. La configuración detallada vive en cada repo.
-- Al cerrar la hackatón, actualizar secciones de contratos y endpoints con valores finales.
 

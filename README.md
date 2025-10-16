@@ -52,6 +52,24 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 
 > Nota: detalles finos de cada módulo están en sus repos correspondientes.
 
+
+## sistema de verificacion
+algunas tareas requieren que no solo se verifique automaticamente, en estos casos se genera en la tarea el rol de verificador, el cual es una persona que se encarga de validar las tareas realizaddas
+
+
+<img width="675" height="299" alt="image" src="https://github.com/user-attachments/assets/27e60a7b-d59d-4464-9161-bd5027de259b" />
+
+esto tambien nos permite generar reputacion en los usan nuestra app
+
+<img width="638" height="384" alt="image" src="https://github.com/user-attachments/assets/f6d9ab72-1b22-48f0-a8f9-5a0bf0ec6ef8" />
+
+
+REPUTACION Y CURRICULUM
+
+mucho del trabajo informal que se realiza en latam no queda registrado, con esta herramienta podemois empezar a registrar tareas, ofrecer capacitacion y mejorar la gente que trabaje para que puedan mejorar, realizando capacitaciones yy realizando tareas necesarias.
+
+
+
 ## Despliegue rápido (hackatón)
 > Objetivo: levantar demo funcional con los tres componentes conectados.
 ---

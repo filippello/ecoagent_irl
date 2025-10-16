@@ -11,7 +11,11 @@ All the code was created specifically for this hackathon, **except** for the **i
 - **Crowdfunding Web + Contracts** · CELO + GoodDollar  
   https://github.com/Sixela33/celo#
 - **IRL Tool** · planning, task assignment, and verification (previous iteration, completed and integrated with GoodDollar, CELO, and the crowdfunding platform)  
-  https://gitlab.com/irl-agents
+  https://gitlab.com/irl-agents/api
+
+  https://gitlab.com/irl-agents/tma
+
+  https://gitlab.com/irl-agents/tg-bot
 
 ---
 

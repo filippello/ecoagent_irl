@@ -26,6 +26,9 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 
 ## Cómo funciona (flujo)
 1. Un miembro de la comunidad se contacta con nuestro agente mediante telegram @ecoagentetestbot, y puede describir el problema que esta teniendo.
+
+<img width="879" height="245" alt="image" src="https://github.com/user-attachments/assets/430e4e05-7c33-4bde-98c5-7d3be6d0a624" />
+
 2. El bot solicita descripción, fotos y ubicación del problema.
 3. Se estima costo básico y se crea campaña de crowdfunding en la web https://crowdfund.irl-agents.xyz/
 4. Al alcanzar el objetivo, el sistema divide en micro‑tareas y asigna a trabajadores cercanos.
@@ -33,7 +36,7 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 6. Se liberan pagos on‑chain en CELO usando GoodDollar.
 
 
-<img width="879" height="245" alt="image" src="https://github.com/user-attachments/assets/430e4e05-7c33-4bde-98c5-7d3be6d0a624" />
+
 
 
 <img width="1038" height="403" alt="image" src="https://github.com/user-attachments/assets/07035395-059e-4364-9215-6af6ce171f05" />

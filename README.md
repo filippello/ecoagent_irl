@@ -3,7 +3,7 @@
 > Agente de Telegram + plataforma de crowdfunding que coordina micro‑tareas de limpieza en espacios públicos. Pagos y contratos en **CELO** con **GoodDollar (G$)**.
 
 ## Disclaimer
-Todo el código es nuevo para esta hackatón, **excepto** la parte del repositorio **irl-agents**, idea que veníamos iterando anteriormente y que adaptamos para esta edición.
+Todo el código es nuevo para esta hackatón, **excepto** la parte del repositorio **irl-agents**, idea que veníamos iterando anteriormente y que adaptamos para esta hackaton
 
 - Telegram agent: https://github.com/filippello/ecoAgent
 - Web de crowdfunding y contratos en CELO para GoodDollar: https://github.com/Sixela33/celo#
@@ -25,12 +25,26 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
   Repositorio: https://gitlab.com/irl-agents
 
 ## Cómo funciona (flujo)
-1. Un vecino escribe al bot de Telegram.
+1. Un miembro de la comunidad se contacta con nuestro agente mediante telegram @ecoagentetestbot, y puede describir el problema que esta teniendo.
 2. El bot solicita descripción, fotos y ubicación del problema.
-3. Se estima costo básico y se crea campaña de crowdfunding en la web.
+3. Se estima costo básico y se crea campaña de crowdfunding en la web https://crowdfund.irl-agents.xyz/
 4. Al alcanzar el objetivo, el sistema divide en micro‑tareas y asigna a trabajadores cercanos.
-5. Los trabajadores completan, suben evidencias y el sistema verifica.
+5. Los trabajadores se conectan con la miniapp de telegram que abre nuestra app de IRL mediante @irl_agents_bot cuando les llega la tarea la pueden completan, suben evidencias y el sistema verifica.
 6. Se liberan pagos on‑chain en CELO usando GoodDollar.
+
+
+<img width="879" height="245" alt="image" src="https://github.com/user-attachments/assets/430e4e05-7c33-4bde-98c5-7d3be6d0a624" />
+
+
+<img width="1038" height="403" alt="image" src="https://github.com/user-attachments/assets/07035395-059e-4364-9215-6af6ce171f05" />
+
+
+<img width="708" height="532" alt="image" src="https://github.com/user-attachments/assets/eeafd00a-6407-4612-8baa-4238e75fb7ab" />
+
+<img width="719" height="499" alt="image" src="https://github.com/user-attachments/assets/055f1c82-6421-4334-86cd-d1662e4f5402" />
+
+
+
 
 ## Arquitectura (resumen)
 - **Bot de Telegram**: FastAPI/Node o Python (según repo), conexión a base de datos y colas.
@@ -42,84 +56,6 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 
 ## Despliegue rápido (hackatón)
 > Objetivo: levantar demo funcional con los tres componentes conectados.
-
-### 1) Bot de Telegram
-- Variables de entorno sugeridas:
-  - `TELEGRAM_BOT_TOKEN=`
-  - `DB_URL=`
-  - `CROWDFUND_BASE_URL=`
-  - `IRL_ENGINE_URL=`
-  - `CELO_RPC_URL=`
-  - `GOODDOLLAR_TOKEN_ADDRESS=`
-- Comandos típicos:
-  ```bash
-  # Python
-  pip install -r requirements.txt
-  uvicorn app:app --reload --port 8000
-
-  # Node (si aplica)
-  npm i && npm run dev
-  ```
-
-### 2) dApp de Crowdfunding + Contratos CELO
-- Requisitos:
-  - Node 18+
-  - cuenta CELO de testnet y faucet
-- Variables de entorno sugeridas:
-  - `CELO_PROVIDER_URL=`
-  - `PRIVATE_KEY=`
-  - `GOODDOLLAR_TOKEN_ADDRESS=`
-- Comandos típicos:
-  ```bash
-  npm i
-  npm run deploy:testnet
-  npm run start
-  ```
-
-### 3) IRL Engine
-- Variables de entorno sugeridas:
-  - `DB_URL=`
-  - `STORAGE_BUCKET=`
-  - `VERIFICATION_THRESHOLD=`
-- Comandos típicos:
-  ```bash
-  pip install -r requirements.txt
-  python main.py
-  ```
-
-## Contratos y Direcciones
-> Añadir aquí las direcciones una vez desplegadas en testnet/mainnet.
-
-- `CrowdfundingFactory`: `TBD`
-- `Campaign`: `TBD`
-- `GoodDollar (G$)`: `TBD` en CELO
-
-## API y Endpoints clave
-> Resumen mínimo para integración cruzada. Ver cada repo para docs completas.
-
-- **Bot → dApp**: crear campaña
-  - `POST /api/campaigns` `{ title, goal, location, images[] }`
-- **IRL → dApp**: marcar milestone cumplido
-  - `POST /api/campaigns/:id/milestones/:m/complete`
-- **dApp → CELO**: `createCampaign`, `fund`, `release`
-
-## Roadmap inmediato
-- [ ] Validación básica de evidencia por imagen
-- [ ] QA de pagos con GoodDollar en testnet CELO
-- [ ] Listado público de campañas activas
-- [ ] Panel de worker con tareas cercanas
-- [ ] Scripts de despliegue unificados (Makefile o npm scripts)
-
-## Contribuir
-Pull requests y issues bienvenidos. Para cambios mayores abrir primero un issue con la propuesta.
-
-## Licencia
-Definir licencia para cada repo. Sugerencia: MIT para el bot y la dApp, revisar compatibilidad en irl‑agents.
-
-## Agradecimientos
-- Comunidad CELO y GoodDollar.
-- Mentores y organizadores de la hackatón.
-
 ---
 
 ### Notas para ediciones

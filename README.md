@@ -32,17 +32,20 @@ EcoAgent IRL permite que cualquier persona reporte un problema cívico sencillo 
 2. El bot solicita descripción, fotos y ubicación del problema.
 3. Se estima costo básico y se crea campaña de crowdfunding en la web https://crowdfund.irl-agents.xyz/
 4. Al alcanzar el objetivo, el sistema divide en micro‑tareas y asigna a trabajadores cercanos.
-5. Los trabajadores se conectan con la miniapp de telegram que abre nuestra app de IRL mediante @irl_agents_bot cuando les llega la tarea la pueden completan, suben evidencias y el sistema verifica.
-6. Se liberan pagos on‑chain en CELO usando GoodDollar.
-
-
-
-
 
 <img width="1038" height="403" alt="image" src="https://github.com/user-attachments/assets/07035395-059e-4364-9215-6af6ce171f05" />
 
+5. Los trabajadores se conectan con la miniapp de telegram que abre nuestra app de IRL mediante @irl_agents_bot cuando les llega la tarea la pueden completan, suben evidencias y el sistema verifica.
+6. Se liberan pagos on‑chain en CELO usando GoodDollar.
 
 <img width="708" height="532" alt="image" src="https://github.com/user-attachments/assets/eeafd00a-6407-4612-8baa-4238e75fb7ab" />
+
+
+
+
+
+
+
 
 <img width="719" height="499" alt="image" src="https://github.com/user-attachments/assets/055f1c82-6421-4334-86cd-d1662e4f5402" />
 
